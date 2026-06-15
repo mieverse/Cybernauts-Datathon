@@ -23,19 +23,19 @@ Complying with the core hacakthon directives, we engineered more than 10 advance
 
 #### **A. Recency and Inactivity Dynamics**
 
-* days\_since\_last\_tx**:** Captures the number of days elapsed between the reference date (2024-03-31) and the user's latest transaction. A wider gap serves as a direct proxy for systemic detachment.  
-* trx\_count\_7d **&** trx\_count\_30d**:** Sliding window transaction frequencies. Computing the ratio between these two windows reveals immediate velocity drop-offs, identifying users who were historically active but abruptly went silent in late March.
+* days\_since\_last\_tx: Captures the number of days elapsed between the reference date (2024-03-31) and the user's latest transaction. A wider gap serves as a direct proxy for systemic detachment.  
+* trx\_count\_7d **&** trx\_count\_30d: Sliding window transaction frequencies. Computing the ratio between these two windows reveals immediate velocity drop-offs, identifying users who were historically active but abruptly went silent in late March.
 
 #### **B. Wallet Liquidity & Depletion Trends**
 
-* balance\_trend**:** Computed as the mathematical delta between March Mean Balance and January Mean Balance. A steeply negative trend acts as a definitive signal that the user is systematically draining their account before completely abandoning the application.  
-* bal\_end\_of\_march**:** A focused snapshot isolating the average balance during the final 7 days of March. Users leaving the platform typically reduce this specific boundary to zero.  
+* balance\_trend: Computed as the mathematical delta between March Mean Balance and January Mean Balance. A steeply negative trend acts as a definitive signal that the user is systematically draining their account before completely abandoning the application.  
+* bal\_end\_of\_march: A focused snapshot isolating the average balance during the final 7 days of March. Users leaving the platform typically reduce this specific boundary to zero.  
 * bal\_cv **(Coefficient of Variation):** Calculated as Standard Deviation divided by Mean Balance. High financial volatility highlights irregular, uncommitted application utilization.
 
 #### **C. Ecosystem Stickiness and Volume Allocation**
 
-* cashout\_ratio **&** p2p\_ratio**:** Tracks the proportion of outbound funds leaving through peer-to-peer or cash-out channels versus lifestyle services. Churning users skew heavily toward total asset liquidation.  
-* trx\_type\_MerchantPay **&** trx\_type\_BillPay**:** High interaction with merchants and utility bills signals intense lifestyle ecosystem integration, marking these customers as structurally sticky.
+* cashout\_ratio **&** p2p\_ratio: Tracks the proportion of outbound funds leaving through peer-to-peer or cash-out channels versus lifestyle services. Churning users skew heavily toward total asset liquidation.  
+* trx\_type\_MerchantPay **&** trx\_type\_BillPay: High interaction with merchants and utility bills signals intense lifestyle ecosystem integration, marking these customers as structurally sticky.
 
 ### **4\. VALIDATION STRATEGY & TESTING METHODOLOGY**
 
