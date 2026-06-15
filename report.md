@@ -1,6 +1,3 @@
-নিচে আপনার **Phase 2: Technical Report**\-এর জন্য সম্পূর্ণ কন্টেন্ট দেওয়া হলো। এটি আপনি সরাসরি MS Word বা Google Doc-এ কপি করে বসাতে পারবেন। জাজদের ইভালুয়েশনের সুবিধার জন্য এতে প্রপার স্পেসিং, হেডিংস এবং প্রফেশনাল স্ট্রাকচার মেইনটেইন করা হয়েছে।  
-ওয়ার্ডে পেস্ট করার পর ফন্ট সাইজ Headings-এর জন্য **14 (Bold)** এবং Body Text-এর জন্য **11** বা **12** রাখবেন এবং Line Spacing **1.15** অথবা **1.25** করে দেবেন।
-
 # **PROJECT REPORT: ADVANCED CHURN PREDICTION SYSTEM VIA MULTI-MODEL K-FOLD ENSEMBLE**
 
 **Team Name:** Syntax\_Error  
