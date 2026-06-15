@@ -1,4 +1,4 @@
-### **Phase 2: Feature Engineering & Business Rationality**
+### Feature Engineering & Business Rationality**
 
 **Team Name:** Syntax\_Error
 
